@@ -1,0 +1,6 @@
+# action.yml
+name: 'Latexmk'
+description: 'Run latexmk in the repository.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
